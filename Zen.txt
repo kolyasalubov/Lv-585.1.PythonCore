@@ -11,4 +11,4 @@
 9.Although practicality beats purity.
 10.Errors should never pass silently.
 11.Unless explicitly silenced.
-15. Now is better than never.
+15. Now is better than never!
