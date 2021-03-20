@@ -10,3 +10,4 @@
 8.Special cases arn't special enough to breack the rules
 9.Although practicality beats purity.
 10.Errors should never pass silently.
+The End
