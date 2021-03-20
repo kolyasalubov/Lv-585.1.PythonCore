@@ -7,6 +7,6 @@
 5.Flat is better than nested.
 6.Sparse is better than dense.
 7.Readability counts.
-8.
+8.Special cases arn't special enough to breack the rules
 9.Although practicality beats purity.
 10.Errors should never pass silently.
