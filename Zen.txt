@@ -14,4 +14,4 @@
 12.In the face of ambiguity, refuse the temptation to guess.
 15. Now is better than never.
 16.Although never is often better than *right* now.
->>>>>>> dee9bfebc448ee47545daad96a2aeaae19a071b8
+
