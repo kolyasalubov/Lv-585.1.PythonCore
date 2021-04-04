@@ -7,5 +7,4 @@ while True:
         break
     else:
         print("Error")
-        print("Enter your correct name")
-        break
+        input("Enter your correct name: ")
