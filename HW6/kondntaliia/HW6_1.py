@@ -4,6 +4,5 @@ def return_largest_number(number1, number2):
     the largest number of two numbers.
     """
 
-    return int(max([number1, number2]))
+    return max([int(number1), int(number2)])
 
-print(f"The largest number is {return_largest_number(int(input('1st number: ')), int(input('Enter 2nd number: ')))}.")
