@@ -9,10 +9,3 @@ a_list = list(a)
 a_list.sort ()
 b = "".join(a_list)
 print('Sort:', b)
-
-
-
-
-
-
-
