@@ -4,8 +4,4 @@ while log != "First":
     log = input("Please enter login:")
     continue
 else:
-    print("Hello")
-        
-        
-    
-    
+    print("Hello") 
