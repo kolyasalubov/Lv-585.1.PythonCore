@@ -20,6 +20,4 @@ w.rain                    # {}
 w.heat_index              # None
 w.clouds                  # 75
 
-# Will it be clear tomorrow at this time in Milan (Italy) ?
-forecast = mgr.forecast_at_place('Milan,IT', 'daily')
-answer = forecast.will_be_clear_at(timestamps.tomorrow())
+
