@@ -2,4 +2,3 @@ def distance(x1, y1, x2, y2):
     from math import sqrt
     return round(sqrt(((x2 - x1)**2) + ((y2 - y1)**2)), 2)
 print(distance(4, 1, 8, 3))
-

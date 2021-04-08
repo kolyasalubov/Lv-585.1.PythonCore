@@ -7,4 +7,3 @@ def Largest_Number(num1, num2):
     else:
         return num2
 print(Largest_Number(5, 6))
-
