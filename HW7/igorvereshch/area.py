@@ -30,5 +30,5 @@ def area_of_circle():
     while radius <= 0:
         print("Радіус кола повинен бути додатнім. Спробуйте ще раз.")
         radius = float(input("Введіть радіус кола: "))
-    print(f"Площа кола з радіусом {radius} дорівнює {pi * radius ** 2}.")
+    print(f"Площа кола з радіусом {radius} дорівнює {pi * pow(radius, 2)}.")
     return pi * radius ** 2
