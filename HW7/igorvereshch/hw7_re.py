@@ -7,6 +7,7 @@ def is_valid(password):
     else:
         return 'invalid'
 
+# Just for tests
 passwords = []
 passwords.append("Ab3#") # Invalid because too short (4 symbols)
 passwords.append("Abcd5fghi0@#$@#$##!z") # Invalid because too long (20 symbols)
