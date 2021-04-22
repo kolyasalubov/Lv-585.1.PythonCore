@@ -1,16 +1,19 @@
-class Car:
-    def __init__(self, name, kind, model, status):
-        self.name = name
-        self.kind = kind
-        self.model = model
-        self.status = status
-    def stoped(self):
-        if self.status = "drive":
-            self.status = "stop"
-        return self.status
-        return f"Car {self.name} stoped"
-    def started(self):
-        return f"Car {self.name} started"
-car_1 = Car("DDD", "Sedan", "2345")
-car_2 = Car("FFF", "Truck", "10000")
-print(car_1)
+class Polygon:
+    def __init__(self, no_of_sides):
+        self.n = no_of_sides
+        self.sides = [0 for i in range(no_of_sides)]
+
+    def inputSides(self):
+        self.sides = [float(input("Enter side "+str(i+1)+" : ")) for i in range(self.n)]
+
+    def dispSides(self):
+        for i in range(self.n):
+            print("Side",i+1,"is",self.sides[i])
+class Rectangle(Polygon):
+    def __init__(self):
+        super().__init__(2) 
+
+    def findArea(self):
+        a, b = self.sides
+        s = a * b
+        print(f'The area of the rectangle is {s}')
