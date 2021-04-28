@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+{% for cat, msg in get_flashed_messages(True) %}
+<div class="flash {{cat}}">{{msg}}</div>
+{% endfor %}
+<form action="" method="post" class="form-contact">
+<p><label>Ім'я: </label> <input type="text" name="firstname" value="" requied />
+<p><label>Прізвище: </label> <input type="text" name="lastname" value="" requied />
+<p><label>Спеціалізація: </label> <input type="text" name="subspeciality" value="" requied />
+<p><label>Посада: </label> <input type="text" name="position" value="" requied />
+<p><label>Номер відділення: </label> <input type="number" name="department_id" value="" requied />
+<p><input type="submit" value="Лікарі" />
+</form>
+{% endblock %}

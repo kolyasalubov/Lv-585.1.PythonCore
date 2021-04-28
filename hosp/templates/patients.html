@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+{% for cat, msg in get_flashed_messages(True) %}
+<div class="flash {{cat}}">{{msg}}</div>
+{% endfor %}
+<form action="" method="post" class="form-contact">
+<p><label>Ім'я: </label> <input type="text" name="firstname" value="" requied />
+<p><label>Прізвище: </label> <input type="text" name="lastname" value="" requied />
+<p><label>Дата народження: </label> <input type="date" name="birth_date" value="" requied />
+<p><label>Стать: </label> <input type="text" name="sex" value="" requied />
+<p><label>Діагноз: </label> <input type="text" name="diagnosis" value="" requied />
+<p><label>Дата госпіталізації: </label> <input type="date" name="admission_date" value="" requied />
+<p><label>Дата виписки: </label> <input type="date" name="discharge_date" value="" requied />
+<p><label>Номер відділення: </label> <input type="number" name="department_id" value="" requied />
+<p><label>Номер лікаря: </label> <input type="number" name="physician_id" value="" requied />
+<p><input type="submit" value="Пацієнти"/>
+</form>
+{% endblock %}

@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+    <link type="text/css" href="{{ url_for('static', filename='css/styles.css')}}" rel="stylesheet" />
+	<title>{{title}}</title>
+ </head>
+ <body>
+    <ul class = "mainmenu">
+        <li><a href = "{{url_for('index')}}">Головна</a></li>
+        <li><a href = "{{url_for('patients_reg')}}">Пацієнти</a></li>
+        <li><a href = "{{url_for('departments_reg')}}">Відділення</a></li>
+        <li><a href = "{{url_for('physicians_reg')}}">Лікарі</a></li>
+    </ul> 
+
+    <div class = "content">
+        {% block content %}
+        {% endblock %}
+    </div>
+ </body>
+</html>
